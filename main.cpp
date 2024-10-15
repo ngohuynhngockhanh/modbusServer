@@ -58,7 +58,7 @@ int main(int argc, char* argv[])
 
 void fun(RDSModbusSlave* server)
 {
-	int ret=0;
+	/*int ret=0;
 	srand(time(0));
 	while(1)
 	{
@@ -80,6 +80,6 @@ void fun(RDSModbusSlave* server)
 
         
 		std::this_thread::sleep_for(std::chrono::milliseconds(1000));
-	}
+	}*/
 
 }
